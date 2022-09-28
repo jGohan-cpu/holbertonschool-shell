@@ -13,7 +13,7 @@
 * Exercise 9 - the "chmod 753 hello" command was used to set the mode to "rwxr-x-wr".
 * Exercise 10 - the "chmod --reference=olleh hello" command was used to set the mode of the file hello the same as olleh’s mode.
 * Exercise 11 - the "chmod -R a+x **/" command was used to add execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
-* Exercise 12 - the "mkdir -m 751 my dir" command was used to creates a directory called my dir with permissions 751 in the working directory.
+* Exercise 12 - the "mkdir -m 751 my dir" command was used to create a directory called my dir with permissions 751 in the working directory.
 * Exercise 13 - the "chgrp school hello" command was used to  change the group owner to school for the file hello.
 * Exercise 14 - the "chown vincent:staff **" command was used to change the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 * Exercise 15 - the "chown -h vincent:staff hello" command was used to change the owner and the group owner of  hello to vincent and staff respectively.
