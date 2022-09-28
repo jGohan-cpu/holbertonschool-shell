@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(cut -c -1 | tr -d '\n') 
+find . -depth -type f -name "*.gif" -printf %f'\n'| LC_ALL=C sort -f  
