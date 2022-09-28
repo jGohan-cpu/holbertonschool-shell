@@ -1,6 +1,6 @@
-# Holbertonschool-shell, Basics
+# HolbertonSchool-Shell / Basics
 
-### Explanation of Exercises
+### Explanation Of Exercises
 * Exercise 0 - the "pwd" command was used to print the absolute path name of the current working directory.
 * Exercise 1 - the "ls" command was used to display the contents list of your current directory.
 * Exercise 2 - the "cd" command was used to change the working directory.
