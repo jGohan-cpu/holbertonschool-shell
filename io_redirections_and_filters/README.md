@@ -18,3 +18,13 @@
 * Exercise 14 - the "" command was used to 
 * Exercise 15 - the "" command was used to 
 * Exercise 16 - the "" command was used to
+* Exercise 17 - the "" command was used to
+* Exercise 18 - the "" command was used to
+* Exercise 19 - the "" command was used to
+* Exercise 20 - the "" command was used to
+* Exercise 21 - the "" command was used to
+* Exercise 22 - the "" command was used to
+* Exercise 23 - the "" command was used to
+* Exercise 24 - the "" command was used to
+* Exercise 25 - the "" command was used to
+* Exercise 26 - the "" command was used to
