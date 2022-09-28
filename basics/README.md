@@ -17,4 +17,4 @@
 * Exercise 13 - the "ln -s /bin/ls __ls__" was used to create a symbolic link to /bin/ls, named __ls__.
 * Exercise 14 - the "cp -u **.html .." create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory.
 * Exercise 16 - the "rm **~" was used to create a script that deletes all files in the current working directory that end with the character ~.
-* Exercise 17 - the "mkdir -p welcome/to/school" command was used to delete all files in the current working directory that ends with the character ~.
+* Exercise 17 - the "mkdir -p welcome/to/school" command was used to create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
