@@ -23,7 +23,7 @@
 * Exercise 19 - the "tr A Z | tr c e" command was used to replace all characters A and c from input to Z and e respectively.
 * Exercise 20 - the "tr -d Cc" command was used to create a script that removes all letters c and C from input.
 * Exercise 21 - the "rev" command was used to write a script that reverse its input.
-* Exercise 22 - the "find . -depth -empty -printf %f'\n'" command was used to write a script that displays all users and their home directories, sorted by users.
+* Exercise 22 - the "cut -d : -f 1,6 /etc/passwd | sort" command was used to write a script that displays all users and their home directories, sorted by users.
 * Exercise 23 - the "find . -depth -empty -printf %f'\n'" command was used to write a command that finds all empty files and directories in the current directory and all sub-directories.
 * Exercise 24 - the "find . -depth -type f -name "*.gif" -printf %f'\n'| LC_ALL=C sort -f | rev | cut -c 5- | rev" command was used to write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 * Exercise 25 - the "echo $(cut -c -1 | tr -d '\n')" command was used to create a script that decodes acrostics that use the first letter of each line.
