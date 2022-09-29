@@ -1,21 +1,21 @@
 # HolbertonSchool-Shell / Shell, I/O Redirections And Filters
 
 ### Explanation Of Exercises
-* Exercise 0 - the "" command was used to write a script that prints “Hello, World”, followed by a new line to the standard output.
-* Exercise 1 - the "" command was used to write a script that displays a confused smiley "(Ôo)'.
-* Exercise 2 - the "" command was used to display the content of the /etc/passwd file.
-* Exercise 3 - the "" command was used to display the content of /etc/passwd and /etc/hosts.
-* Exercise 4 - the "" command was used to display the last 10 lines of /etc/passwd.
-* Exercise 5 - the "" command was used to display the first 10 lines of /etc/passwd.
-* Exercise 6 - the "" command was used to write a script that displays the third line of the file iacta.
-* Exercise 7 - the "" command was used to write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
-* Exercise 8 - the "" command was used to write a script that writes into the file ls_cwd_content the result of the command ls -la. 
-* Exercise 9 - the "" command was used to write a script that duplicates the last line of the file iacta.
-* Exercise 10 - the "" command was used to write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+* Exercise 0 - the "echo "Hello, World"" command was used to write a script that prints “Hello, World”, followed by a new line to the standard output.
+* Exercise 1 - the "echo "\"(Ôo)'"" command was used to write a script that displays a confused smiley "(Ôo)'.
+* Exercise 2 - the "cat /etc/passwd " command was used to display the content of the /etc/passwd file.
+* Exercise 3 - the "cat /etc/passwd /etc/hosts " command was used to display the content of /etc/passwd and /etc/hosts.
+* Exercise 4 - the "tail -10 /etc/passwd" command was used to display the last 10 lines of /etc/passwd.
+* Exercise 5 - the "head -10 /etc/passwd" command was used to display the first 10 lines of /etc/passwd.
+* Exercise 6 - the "head -3 iacta | tail +3" command was used to write a script that displays the third line of the file iacta.
+* Exercise 7 - the "echo "Best School" > "\\*\\\\'\"Best School\"\\'\\\\*\$\\?\\*\\*\\*\\*\\*:)" " command was used to write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+* Exercise 8 - the "ls -la > ls_cwd_content" command was used to write a script that writes into the file ls_cwd_content the result of the command ls -la. 
+* Exercise 9 - the "cat iacta | tail -n 1 >> iacta" command was used to write a script that duplicates the last line of the file iacta.
+* Exercise 10 - the "find . -name '*.js' -type f -delete " command was used to write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 * Exercise 11 - the "find . -type d|tail -n +2|wc -l" command was used to write a script that counts the number of directories and sub-directories in the current directory.
-* Exercise 12 - the "" command was used to create a script that displays the 10 newest files in the current directory.
-* Exercise 13 - the "" command was used to create a script that takes a list of words as input and prints only words that appear exactly once.
-* Exercise 14 - the "" command was used to display lines containing the pattern “root” from the file /etc/passwd.
+* Exercise 12 - the "ls -t |head -n 10" command was used to create a script that displays the 10 newest files in the current directory.
+* Exercise 13 - the "sort |uniq -u" command was used to create a script that takes a list of words as input and prints only words that appear exactly once.
+* Exercise 14 - the "cat /etc/passwd | grep "root"" command was used to display lines containing the pattern “root” from the file /etc/passwd.
 * Exercise 15 - the "cat /etc/passwd | grep "bin" -c" command was used to display the number of lines that contain the pattern “bin” in the file /etc/passwd.
 * Exercise 16 - the "grep -iA 3 "root" /etc/passwd" command was used to display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 * Exercise 17 - the "grep -v "bin" /etc/passwd" command was used to display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
