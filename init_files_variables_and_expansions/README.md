@@ -1,6 +1,6 @@
 # HolbertonSchool-Shell / Shell, Init Files, Variables And Expansions
 
-### Exercise Explanation
+### Explanation Of Exercises
 * Exercise 0 - the "" command was used to write a script that prints “Hello, World”, followed by a new line to the standard output.
 * Exercise 1 - the "" command was used to write a script that displays a confused smiley "(Ôo)'.
 * Exercise 2 - the "" command was used to display the content of the /etc/passwd file.
