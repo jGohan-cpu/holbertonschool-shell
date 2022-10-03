@@ -17,6 +17,6 @@
 * Exercise 13 - the "printf '%.2f\n' $NUM" command was used to print all possible combinations of two letters, except oo.
 * Exercise 14 - the "printf '%x\n' $DECIMAL" command was used to print a number with two decimal places, followed by a new line.
 * Exercise 15 - the "tr 'A-Ma-mN-Zn-z' 'N-Zn-zA-Ma-m'" command was used to convert a number from base 10 to base 16.
-* Exercise 16 - the "paste - - | cut -f1" command was used to  encode and decode text using the rot13 encryption. Assume ASCII.
+* Exercise 16 - the "tr 'A-Ma-mN-Zn-z' 'N-Zn-zA-Ma-m'" command was used to  encode and decode text using the rot13 encryption. Assume ASCII.
 * Exercise 17 - the "paste - - | cut -f1" command was used to print every other line from the input, starting with the first line.
 * Exercise 18 - the "" command was used to add the two numbers stored in the environment variables WATER and STIR and prints the result.
